@@ -19,10 +19,7 @@ const router = createBrowserRouter(
         }
       ],
     },
-  ],
-  {
-    basename: "/workit-landing-page",
-  }
+  ]
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
