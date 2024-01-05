@@ -4,7 +4,9 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
-      <Hero />
+      <main className="main">
+        <Hero />
+      </main>
       <Footer />
     </>
   );
