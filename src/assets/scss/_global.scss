@@ -1,0 +1,14 @@
+@use './colors' as color;
+@use './placeholders';
+
+body {
+    color: color.$dark-purple;
+}
+
+h1 {
+    @extend %heading-L;
+}
+
+.tesing {
+    background-color: color.$dark-purple;
+}

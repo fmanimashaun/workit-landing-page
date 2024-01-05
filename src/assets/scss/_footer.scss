@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+
+  &__logo {
+    display: block;
+    width: 95px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+  }
+}

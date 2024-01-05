@@ -1,0 +1,30 @@
+@use './colors' as color;
+@use "./mixins";
+
+.btn {
+  &--primary {
+    @include mixins.btn;
+    border: 2px solid color.$eucaplyptus;
+
+    &:hover {
+      background: transparent;
+      color: color.$eucaplyptus;
+    }
+  }
+
+  &--secondary {
+    @include mixins.btn;
+    padding: 0;
+    color: color.$white;
+    background: transparent;
+    border-bottom: 2px solid color.$eucaplyptus;
+
+    &:hover {
+      color: color.$eucaplyptus;
+      border-bottom: 2px solid color.$eucaplyptus;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+    }
+  }
+}

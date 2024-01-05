@@ -1,0 +1,16 @@
+@use './colors' as color;
+@use './placeholders';
+
+@mixin btn () {
+    display: inline-block;
+    padding: 0.875rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: color.$dark-purple;
+    background: color.$eucaplyptus;
+    border: none;
+    @extend %paragraph;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+    transition: all 0.3s ease-in-out;
+}

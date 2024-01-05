@@ -1,0 +1,17 @@
+/* import fonts */
+
+/* Fraunces font */
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("TrueType");
+}
+
+/* Manrope font */
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope/Manrope-VariableFont_wght.ttf") format("TrueType");
+}
+
+$primary-ff: "Fraunces", serif;
+$secondary-ff: "Manrope", sans-serif;
